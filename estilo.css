@@ -1,0 +1,36 @@
+/* Estilos Globais */
+body {
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+
+.page3 #ball {
+    width: 50px;
+    height: 50px;
+    background-color: #ffeb3b;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
